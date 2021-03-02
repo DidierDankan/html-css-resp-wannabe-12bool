@@ -12,7 +12,7 @@
   float: left;
 }
 
-#lezioni .row img {
+#lezioni .row img { 
   /* per centrare orizzontalmente */
   display: block;
   margin-right: auto;

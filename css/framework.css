@@ -126,9 +126,45 @@
     margin-left: calc(100% / 12);
 }
 
-/* RESPONSIVE WEB */
+/* new rules */
+/* lezioni */
+#lezioni .col-xs-12 img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
 
-@media screen and (min-width:768px) {
+/* steps */
+.col-xs-12 {
+    text-align: center;
+  }
+
+/* why */
+#why .col-xs-12 img {
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 30px
+}
+
+h1,
+h2,
+h3 {
+    margin-bottom: .5rem;
+}
+
+img {
+    max-height: 140px;
+    margin-bottom: .8rem;
+}
+
+hr {
+    margin-top: .8rem;
+    margin-bottom: .8rem;
+}
+
+/* RESPONSIVE WEB */
+/* tablet break-point */
+@media screen and (min-width:768px) and (max-width:992px) {
     .col-md-12 {
         width: 100%;
     }
@@ -225,8 +261,18 @@
     .offset-md-12 {
         margin-left: calc(100% / 12);
     }
+
+    /* corrections */
+    h1 {
+        margin-top: 1rem;
+    }
+
+    .bg-color.grey {
+        background-color: #f9f9f9;
+    }
 }
 
+/* desktop break-point */
 @media screen and (min-width:992px) {
     .col-lg-12 {
         width: 100%;
@@ -323,5 +369,15 @@
 
     .offset-lg-12 {
         margin-left: calc(100% / 12);
+    }
+    
+    /* correction */
+
+    img {
+        max-height: 200px;
+    }
+
+    .bg-color.grey {
+        background-color: #f9f9f9;
     }
 }
